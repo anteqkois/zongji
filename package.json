@@ -1,17 +1,15 @@
 {
-  "name": "@anteqkois/zongji",
-  "private": false,
-  "version": "0.4.15",
-  "description": "A mysql binlog listener running on Node.js (fork of @rodrigogs/zongji)",
+  "name": "zongji",
+  "version": "0.5.1",
+  "description": "A mysql binlog listener running on Node.js",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "types": "index.d.ts",
   "scripts": {
-    "test": "nodeunit --reporter=minimal test",
-    "lint": "eslint .",
-    "publish:public": "npm publish --access=public"
+    "test": "tap --bail --no-coverage --jobs=1 test/*.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -32,17 +30,17 @@
   "bugs": {
     "url": "https://github.com/anteqkois/zongji/issues"
   },
-  "homepage": "https://github.com/anteqkois/zongji",
+  "homepage": "https://github.com/nevill/zongji",
+  "engines": {
+    "node": ">= 8.0"
+  },
   "devDependencies": {
-    "eslint": "5.12.0",
-    "nodeunit": "~0.11.3"
+    "eslint": "6.8.0",
+    "tap": "14.10.7"
   },
   "dependencies": {
-    "iconv-lite": "^0.4.24",
-    "mysql": "^2.16.0",
-    "@types/zongji": "^0.5.2"
-  },
-  "engines": {
-    "node": ">=6"
+    "big-integer": "1.6.48",
+    "iconv-lite": "0.5.1",
+    "mysql": "2.18.1"
   }
 }
