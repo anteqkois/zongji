@@ -1,7 +1,7 @@
 {
-  "name": "@rodrigogs/zongji",
+  "name": "@anteqkois/zongji",
   "version": "0.4.14",
-  "description": "A mysql binlog listener running on Node.js",
+  "description": "A mysql binlog listener running on Node.js (fork of @rodrigogs/zongji)",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rodrigogs/zongji"
+    "url": "https://github.com/anteqkois/zongji"
   },
   "keywords": [
     "mysql",
@@ -20,15 +20,16 @@
   ],
   "author": "Nevill <nevill.dutt@gmail.com>",
   "contributors": [
+    "anteqkois <anteqkois.dev@gmail.com (https://github.com/anteqkois)>",
     "numtel <ben@latenightsketches.com> (https://github.com/numtel)",
     "rfanth <rfa@rfanth.com> (https://github.com/rfanth)",
     "rodrigogs <rodrigo.smscom@gmail.com (https://github.com/rodrigogs)>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rodrigogs/zongji/issues"
+    "url": "https://github.com/anteqkois/zongji/issues"
   },
-  "homepage": "https://github.com/rodrigogs/zongji",
+  "homepage": "https://github.com/anteqkois/zongji",
   "devDependencies": {
     "eslint": "5.12.0",
     "nodeunit": "~0.11.3"
