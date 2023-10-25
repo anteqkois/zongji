@@ -1,5 +1,6 @@
 {
   "name": "@anteqkois/zongji",
+  "private": false,
   "version": "0.4.14",
   "description": "A mysql binlog listener running on Node.js (fork of @rodrigogs/zongji)",
   "main": "index.js",
