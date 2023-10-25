@@ -7,6 +7,7 @@
   "directories": {
     "test": "test"
   },
+  "types": "index.d.ts",
   "scripts": {
     "test": "nodeunit --reporter=minimal test",
     "lint": "eslint .",
@@ -38,7 +39,8 @@
   },
   "dependencies": {
     "iconv-lite": "^0.4.24",
-    "mysql": "^2.16.0"
+    "mysql": "^2.16.0",
+    "@types/zongji": "^0.5.2"
   },
   "engines": {
     "node": ">=6"
